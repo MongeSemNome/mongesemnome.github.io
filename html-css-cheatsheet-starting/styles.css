@@ -1,0 +1,46 @@
+
+h1 {
+    text-align: center;
+    Font-family: Arial, Garamond, sans-serif;
+    color: blue;
+    font-weight: 900;
+}
+
+body {
+    background-color: lightgray;
+    margin: 400px;
+    padding: 0;
+    width: 60%;
+    /* align-content: center; */
+    text-align: left;
+
+}
+
+table {
+    border-collapse: collapse;
+    Font-family: Garamond, Arial, sans-serif;
+    border: 2px solid black;
+    margin: auto;
+    /* padding: 20px; */
+    text-align: center;
+    align-content: center;
+    /* width é essencial para o posicionamento relativo de uma table */
+    width: 50%;
+}
+
+thead, tfoot {
+    background-color: lightgray;
+    font-weight: 900;
+}
+
+th, td {
+    font-weight: 700;
+    border: 1px dotted gray;
+}
+
+caption {
+    caption-side: bottom;
+    font-weight: bold; 
+    text-align: center;
+}
+
